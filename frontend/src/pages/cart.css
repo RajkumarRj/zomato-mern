@@ -1,0 +1,125 @@
+/* Cart Container */
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Cart Heading */
+.head-cart {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Link to Home */
+.cart-container a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Cart Items Container */
+.container-rest-cart {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Cart Item Card */
+.rest-card-cart {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Cart Item Box */
+.rest-box-cart {
+  padding: 15px;
+}
+
+/* Cart Item Title */
+.rest-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Cart Item Image */
+.rest-box-cart img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Cart Item Category */
+.rest-box-cart p {
+  margin-bottom: 8px;
+}
+
+/* Button Functionalities */
+.button-func {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Quantity Buttons */
+.button-dec,
+.button-inc,
+.button-rem {
+  padding: 4px 12px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-dec:hover,
+.button-inc:hover,
+.button-rem:hover {
+  background-color: #0056b3;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Total Cart Info */
+.total-cart {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.total-cart p {
+  margin-bottom: 10px;
+}
+.price,
+.bold {
+  font-weight: 700;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .container-rest-cart {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+.checkout-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}

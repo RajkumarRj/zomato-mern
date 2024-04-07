@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "title": "Butter Chicken",
+    "price": 550,
+    "description": "A classic North Indian dish made with tender chicken cooked in a creamy and flavorful tomato-based sauce with butter and spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/butter_chicken.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 230
+    }
+  },
+  {
+    "id": 2,
+    "title": "Paneer Tikka Masala",
+    "price": 450,
+    "description": "Grilled paneer cubes cooked in a spiced tomato-based curry sauce, perfect for vegetarians.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/paneer_tikka_masala.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 180
+    }
+  },
+  {
+    "id": 3,
+    "title": "Chicken Biryani",
+    "price": 300,
+    "description": "A flavorful rice dish layered with marinated chicken, caramelized onions, and aromatic spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/chicken_biryani.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 300
+    }
+  },
+  {
+    "id": 4,
+    "title": "Masala Dosa",
+    "price": 120,
+    "description": "A South Indian specialty consisting of a thin, crispy crepe made from fermented rice and lentil batter, filled with spiced potato curry.",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/masala_dosa.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 150
+    }
+  },
+  {
+    "id": 5,
+    "title": "Rogan Josh",
+    "price": 480,
+    "description": "A fragrant Kashmiri dish of tender lamb cooked in a rich and aromatic sauce made with yogurt, tomatoes, and spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/rogan_josh.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 200
+    }
+  },
+  {
+    "id": 6,
+    "title": "Pani Puri",
+    "price": 80,
+    "description": "A popular street food snack consisting of crisp hollow puris filled with spicy tangy water, chickpeas, potatoes, and tamarind chutney.",
+    "category": "Street Food",
+    "image": "https://example.com/pani_puri.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 250
+    }
+  },
+  {
+    "id": 7,
+    "title": "Chole Bhature",
+    "price": 180,
+    "description": "A classic North Indian dish featuring spicy chickpea curry (chole) served with deep-fried bread (bhature).",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/chole_bhature.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 120
+    }
+  },
+  {
+    "id": 8,
+    "title": "Palak Paneer",
+    "price": 400,
+    "description": "Soft paneer cubes cooked in a creamy spinach gravy with garlic, ginger, and aromatic spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/palak_paneer.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 180
+    }
+  },
+  {
+    "id": 9,
+    "title": "Mutton Curry",
+    "price": 600,
+    "description": "Tender mutton pieces cooked in a spicy and aromatic curry sauce made with onions, tomatoes, and a blend of spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/mutton_curry.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 280
+    }
+  },
+  {
+    "id": 10,
+    "title": "Aloo Paratha",
+    "price": 100,
+    "description": "Whole wheat flatbread stuffed with spiced mashed potatoes, cooked on a griddle until crispy and golden.",
+    "category": "North Indian Cuisine",
+    "image": "https://example.com/aloo_paratha.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 150
+    }
+  },
+  {
+    "id": 11,
+    "title": "Gulab Jamun",
+    "price": 60,
+    "description": "Soft and spongy milk solids (khoya) balls soaked in flavored sugar syrup, served warm or cold as a dessert.",
+    "category": "Indian Desserts",
+    "image": "https://example.com/gulab_jamun.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 200
+    }
+  },
+  {
+    "id": 12,
+    "title": "Dahi Puri",
+    "price": 90,
+    "description": "A popular Indian street food snack consisting of crispy puris filled with spiced yogurt, tamarind chutney, and a mix of chaat masala-seasoned ingredients.",
+    "category": "Street Food",
+    "image": "https://example.com/dahi_puri.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 180
+    }
+  },
+  {
+    "id": 13,
+    "title": "Rajma Chawal",
+    "price": 150,
+    "description": "A comforting Punjabi dish featuring red kidney beans (rajma) cooked in a thick tomato-based gravy, served with steamed rice (chawal).",
+    "category": "North Indian Cuisine",
+    "image": "https://example.com/rajma_chawal.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 120
+    }
+  },
+  {
+    "id": 14,
+    "title": "Chicken Korma",
+    "price": 520,
+    "description": "Tender chicken pieces cooked in a rich, creamy sauce made with yogurt, nuts, and aromatic spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/chicken_korma.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 220
+    }
+  },
+  {
+    "id": 15,
+    "title": "Pav Bhaji",
+    "price": 120,
+    "description": "A popular Mumbai street food dish consisting of a spicy vegetable curry (bhaji) served with buttered and toasted soft bread rolls (pav).",
+    "category": "Street Food",
+    "image": "https://example.com/pav_bhaji.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 250
+    }
+  },
+  {
+    "id": 16,
+    "title": "Fish Curry",
+    "price": 480,
+    "description": "Fresh fish pieces simmered in a tangy and flavorful curry sauce made with coconut milk, tamarind, and spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/fish_curry.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 190
+    }
+  },
+  {
+    "id": 17,
+    "title": "Dosa",
+    "price": 100,
+    "description": "A popular South Indian crepe made from fermented rice and lentil batter, served with coconut chutney and sambar (spiced lentil soup).",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/dosa.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 220
+    }
+  },
+  {
+    "id": 18,
+    "title": "Chicken 65",
+    "price": 280,
+    "description": "Spicy, deep-fried chicken pieces marinated in a flavorful blend of spices and herbs, a popular appetizer or snack in South Indian cuisine.",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/chicken_65.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 210
+    }
+  },
+  {
+    "id": 19,
+    "title": "Matar Paneer",
+    "price": 380,
+    "description": "A delicious North Indian dish featuring paneer (Indian cottage cheese) and peas cooked in a rich tomato-based gravy with spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/matar_paneer.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 170
+    }
+  },
+  {
+    "id": 20,
+    "title": "Bhel Puri",
+    "price": 80,
+    "description": "A popular Mumbai street food snack made from puffed rice, sev (crispy chickpea noodles), chopped vegetables, tangy tamarind chutney, and spicy green chutney.",
+    "category": "Street Food",
+    "image": "https://example.com/bhel_puri.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 240
+    }
+  },
+  {
+    "id": 21,
+    "title": "Malai Kofta",
+    "price": 420,
+    "description": "Deep-fried vegetable and paneer dumplings (koftas) simmered in a creamy, mildly spiced tomato-based curry.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/malai_kofta.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 200
+    }
+  },
+  {
+    "id": 22,
+    "title": "Pulao",
+    "price": 180,
+    "description": "A fragrant rice dish cooked with mixed vegetables, spices, and herbs, often served as a main course.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/pulao.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 150
+    }
+  },
+  {
+    "id": 23,
+    "title": "Rasmalai",
+    "price": 100,
+    "description": "Soft and spongy milk patties soaked in flavored milk syrup, garnished with pistachios and saffron, served chilled.",
+    "category": "Indian Desserts",
+    "image": "https://example.com/rasmalai.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 220
+    }
+  },
+  {
+    "id": 24,
+    "title": "Chole Kulche",
+    "price": 150,
+    "description": "Spicy chickpea curry (chole) served with soft and buttered kulchas (Indian bread).",
+    "category": "Indian Street Food",
+    "image": "https://example.com/chole_kulche.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 180
+    }
+  },
+  {
+    "id": 25,
+    "title": "Hyderabadi Biryani",
+    "price": 350,
+    "description": "A popular aromatic rice dish layered with marinated meat, caramelized onions, and fragrant spices, originating from Hyderabad, Telangana.",
+    "category": "Hyderabadi Cuisine",
+    "image": "https://example.com/hyderabadi_biryani.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 300
+    }
+  },
+  {
+    "id": 26,
+    "title": "Aloo Gobi",
+    "price": 180,
+    "description": "A North Indian vegetarian dish made with potatoes (aloo) and cauliflower (gobi) cooked with onions, tomatoes, and spices.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/aloo_gobi.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 190
+    }
+  },
+  {
+    "id": 27,
+    "title": "Rava Dosa",
+    "price": 110,
+    "description": "A variation of dosa made from semolina (rava) and rice flour, known for its crispy texture and delicious taste.",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/rava_dosa.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 220
+    }
+  },
+  {
+    "id": 28,
+    "title": "Kadai Paneer",
+    "price": 420,
+    "description": "Paneer (Indian cottage cheese) cooked with bell peppers, onions, tomatoes, and spices in a thick and flavorful curry sauce.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/kadai_paneer.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 200
+    }
+  },
+  {
+    "id": 29,
+    "title": "Jalebi",
+    "price": 60,
+    "description": "A popular Indian sweet made from deep-fried batter soaked in sugar syrup, served warm or cold.",
+    "category": "Indian Sweets",
+    "image": "https://example.com/jalebi.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 250
+    }
+  },
+  {
+    "id": 30,
+    "title": "Chicken Chettinad",
+    "price": 500,
+    "description": "A spicy and aromatic chicken curry from the Chettinad region of Tamil Nadu, featuring a blend of traditional South Indian spices.",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/chicken_chettinad.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 210
+    }
+  },
+  {
+    "id": 31,
+    "title": "Bisi Bele Bath",
+    "price": 160,
+    "description": "A hearty rice dish from Karnataka made with rice, lentils, mixed vegetables, and a special blend of spices, served hot.",
+    "category": "South Indian Cuisine",
+    "image": "https://example.com/bisi_bele_bath.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 180
+    }
+  },
+  {
+    "id": 32,
+    "title": "Rajasthani Dal Baati Churma",
+    "price": 220,
+    "description": "A traditional Rajasthani meal consisting of baked wheat flour rolls (baati) served with spiced lentil curry (dal) and sweet crumbled wheat (churma).",
+    "category": "Rajasthani Cuisine",
+    "image": "https://example.com/dal_baati_churma.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 150
+    }
+  },
+  {
+    "id": 33,
+    "title": "Mysore Pak",
+    "price": 80,
+    "description": "A famous South Indian sweet made from gram flour, sugar, and ghee, known for its melt-in-the-mouth texture.",
+    "category": "Indian Sweets",
+    "image": "https://example.com/mysore_pak.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 280
+    }
+  },
+  {
+    "id": 34,
+    "title": "Keema Samosa",
+    "price": 120,
+    "description": "Deep-fried pastry filled with spiced minced meat (keema), a popular snack in Indian cuisine.",
+    "category": "Indian Street Food",
+    "image": "https://example.com/keema_samosa.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 220
+    }
+  },
+  {
+    "id": 35,
+    "title": "Puran Poli",
+    "price": 100,
+    "description": "A sweet flatbread made from lentils, jaggery, and flour, flavored with cardamom and served with ghee.",
+    "category": "Maharashtrian Cuisine",
+    "image": "https://example.com/puran_poli.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 200
+    }
+  },
+  {
+    "id": 36,
+    "title": "Kheer",
+    "price": 90,
+    "description": "A creamy Indian rice pudding made with milk, rice, sugar, and flavored with cardamom and nuts.",
+    "category": "Indian Desserts",
+    "image": "https://example.com/kheer.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 180
+    }
+  },
+  {
+    "id": 37,
+    "title": "Chana Masala",
+    "price": 180,
+    "description": "Spicy chickpea curry made with onions, tomatoes, and a blend of aromatic spices, a popular dish in North Indian cuisine.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/chana_masala.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 250
+    }
+  },
+  {
+    "id": 38,
+    "title": "Rasgulla",
+    "price": 70,
+    "description": "Soft and spongy cottage cheese (chenna) balls soaked in sugar syrup, a famous Bengali sweet.",
+    "category": "Indian Sweets",
+    "image": "https://example.com/rasgulla.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 240
+    }
+  },
+  {
+    "id": 39,
+    "title": "Gajar Halwa",
+    "price": 120,
+    "description": "A popular North Indian sweet made from grated carrots, milk, sugar, and flavored with cardamom and nuts.",
+    "category": "Indian Desserts",
+    "image": "https://example.com/gajar_halwa.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 200
+    }
+  },
+  {
+    "id": 40,
+    "title": "Methi Malai Murg",
+    "price": 480,
+    "description": "Chicken curry cooked with fresh fenugreek leaves (methi) and cream, a rich and aromatic dish from North Indian cuisine.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/methi_malai_murg.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 220
+    }
+  },
+  {
+    "id": 41,
+    "title": "Malabar Fish Curry",
+    "price": 400,
+    "description": "A spicy and tangy fish curry made with coconut milk, tamarind, and South Indian spices, a specialty from the Malabar region.",
+    "category": "Kerala Cuisine",
+    "image": "https://example.com/malabar_fish_curry.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 190
+    }
+  },
+  {
+    "id": 42,
+    "title": "Kadhi Pakora",
+    "price": 160,
+    "description": "A yogurt-based curry (kadhi) with deep-fried chickpea flour dumplings (pakoras), a comforting dish from North India.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/kadhi_pakora.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 170
+    }
+  },
+  {
+    "id": 43,
+    "title": "Murg Makhani (Butter Chicken)",
+    "price": 520,
+    "description": "Tender chicken pieces cooked in a creamy and flavorful tomato-based sauce with butter and spices, a popular dish from Punjab.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/butter_chicken.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 220
+    }
+  },
+  {
+    "id": 44,
+    "title": "Aloo Dum",
+    "price": 150,
+    "description": "Spicy baby potatoes (aloo) cooked in a tangy tomato-based gravy, a delicious side dish in Bengali cuisine.",
+    "category": "Bengali Cuisine",
+    "image": "https://example.com/aloo_dum.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 150
+    }
+  },
+  {
+    "id": 45,
+    "title": "Methi Thepla",
+    "price": 100,
+    "description": "Gujarati flatbread made from whole wheat flour, fenugreek leaves (methi), and spices, often served with pickles or yogurt.",
+    "category": "Gujarati Cuisine",
+    "image": "https://example.com/methi_thepla.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 220
+    }
+  },
+  {
+    "id": 46,
+    "title": "Chaat Papdi",
+    "price": 90,
+    "description": "A popular Indian street food snack made from crisp papdis (fried dough wafers), boiled potatoes, chickpeas, yogurt, and tangy chutneys.",
+    "category": "Street Food",
+    "image": "https://example.com/chaat_papdi.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 210
+    }
+  },
+  {
+    "id": 47,
+    "title": "Dal Tadka",
+    "price": 140,
+    "description": "Yellow lentils tempered with cumin seeds, garlic, and spices, a flavorful and comforting dish in North Indian cuisine.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/dal_tadka.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 180
+    }
+  },
+  {
+    "id": 48,
+    "title": "Kaju Katli",
+    "price": 200,
+    "description": "A popular Indian sweet made from cashew nuts, sugar, and ghee, often garnished with edible silver foil.",
+    "category": "Indian Sweets",
+    "image": "https://example.com/kaju_katli.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 280
+    }
+  },
+  {
+    "id": 49,
+    "title": "Samosa Chaat",
+    "price": 120,
+    "description": "A delicious combination of mashed samosa topped with spicy chickpea curry, yogurt, and chutneys, creating a delightful medley of flavors.",
+    "category": "Street Food",
+    "image": "https://example.com/samosa_chaat.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 250
+    }
+  },
+  {
+    "id": 50,
+    "title": "Sabudana Khichdi",
+    "price": 110,
+    "description": "A savory Indian dish made from soaked sabudana (tapioca pearls), peanuts, potatoes, and seasoned with spices, popular during fasting.",
+    "category": "Indian Cuisine",
+    "image": "https://example.com/sabudana_khichdi.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 230
+    }
+  }
+]
