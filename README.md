@@ -39,7 +39,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/zomato-ordering-app.git
+git clone https://github.com/Rajkumarrj/zomato-mern.git
 Install Dependencies:
 
 bash
